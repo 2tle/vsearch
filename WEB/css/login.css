@@ -1,0 +1,39 @@
+.login-top {
+	margin-top : 7em;
+	margin-bottom : 6em;
+	text-align : center;
+	vertical-align : middle;
+}
+
+.login-top-title {
+	margin-bottom : 1.2rem;
+	font-size : 3rem;
+}
+
+.login-mid {
+	
+	text-align : center;
+}
+
+.Input {
+  width:15rem;
+  height:2rem;
+  font-size:1rem;
+}
+
+.Button {
+  background-color: white;
+  color: black;
+  border: 2px solid skyblue; 
+  border-radius: 4px;
+  padding: 1em 6em;
+}
+
+.register {
+	margin-top: 1em;
+}
+
+.pwmiss {
+	margin-top: 1em;
+}
+
