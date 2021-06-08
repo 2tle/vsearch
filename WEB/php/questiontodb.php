@@ -11,7 +11,7 @@ $naeyong = $_POST['naeyong'];
 }
 
 
-$mysqli=mysqli_connect("localhost","rootuser","ieelte","question_db");
+$mysqli=mysqli_connect("localhost","rootuser","","question_db");
 $question=mysqli_query($mysqli,"INSERT INTO question_table (questionTitle,questionName,questionValue,questionPW) VALUES('$title','$name','$naeyong','$pw')");
 if($question) {
   echo "<script>alert(\"업로드가 정상적으로 완료되었습니다.\");</script>";
