@@ -17,7 +17,7 @@
 		</div>
 	  <hr style='margin-left :3rem; margin-right:3rem;' class='hs-kr'>
     <?php
-      $con=mysqli_connect("localhost","rootuser","ieelte","question_db");
+      $con=mysqli_connect("localhost","rootuser","","question_db");
       $index=$_GET['idx'];
       $result=mysqli_query($con,"SELECT * FROM question_table WHERE qnaIdx='$index'");
       $row = mysqli_fetch_array($result);
