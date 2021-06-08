@@ -16,7 +16,7 @@
 		</div>
     <?php
       $index=$_GET['idx'];
-      $con=mysqli_connect("localhost","rootuser","ieelte","question_db");
+      $con=mysqli_connect("localhost","rootuser","","question_db");
       $result=mysqli_query($con,"SELECT * FROM question_table WHERE qnaIdx='$index'");
       $row = mysqli_fetch_array($result);
       echo "<div style='text-align:center;' class='qna-main'>";
