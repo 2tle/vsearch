@@ -16,7 +16,7 @@
 		</div>
 		<div class="container qlist-table">
 			<?php
-			$con =mysqli_connect("localhost","rootuser","ieelte","question_db");
+			$con =mysqli_connect("localhost","rootuser","","question_db");
 			$result=mysqli_query($con,"SELECT * FROM question_table ORDER BY qnaIdx DESC");
 			echo "<table class='table table-hover'>
 			<thead>
