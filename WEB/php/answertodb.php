@@ -9,7 +9,7 @@ if($name==NULL || $value==NULL) {
   exit();
 }
 
-$mysqli=mysqli_connect("localhost","rootuser","ieelte","question_db");
+$mysqli=mysqli_connect("localhost","rootuser","","question_db");
 
 $answer=mysqli_query($mysqli,"UPDATE question_table SET answerName='$name', answerValue='$value' WHERE qnaIdx='$index'");
 if($answer) {
